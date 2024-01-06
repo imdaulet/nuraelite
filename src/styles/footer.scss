@@ -1,0 +1,48 @@
+.footer{
+  padding: 200px 130px;
+  &__left{
+    width: calc(50%);
+  }
+  &__right{
+    display: block;
+    width: calc(50%);
+    position: relative;
+    right: -750px;
+    bottom: 740px;
+  }
+  &__title{
+    color: #333;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 28px;
+  }
+  &__desc{
+    color: #333;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    padding: 25px;
+  }
+  &__card{
+    display: flex;
+    padding: 25px;
+    column-gap: 15px;
+  }
+  &__text{
+    color: #333;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    &:hover, &.active {
+      color: #DBA069;
+      border: 2px solid white;
+      border-radius: 1px;
+    }
+  }
+  &__svg{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+  }
+}

@@ -1,0 +1,72 @@
+.team {
+  padding: 166px 0 180px;
+  background: rgba(132, 34, 49, 0.05);
+  &__title{
+    color: #333;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  &__card {
+    width: 100%;
+
+    &-block {
+      position: relative;
+      height: 340px;
+      overflow: hidden;
+      &:hover {
+        &::before {
+          display: block;
+        }
+        .team__card-icons {
+          display: flex;
+        }
+      }
+    }
+    &-img {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &-title {
+      color: var(--gray-800, #424551);
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+      margin: 16px 0 4px;
+    }
+    &-desc {
+      color: var(--gray-700, #787A80);
+      text-align: center;
+      font-weight: 400;
+    }
+  }
+  &__btns {
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+  }
+  &__next, &__prev {
+    svg path {
+      fill: #424551;
+    }
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    &:hover {
+      background: #FF3F3A;
+      svg path {
+        fill: #fff;
+      }
+    }
+  }
+  &__swiper {
+    margin-top: 60px;
+  }
+}

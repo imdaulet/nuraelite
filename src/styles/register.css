@@ -1,0 +1,17 @@
+.register {
+  padding: 0 130px;
+}
+.register__small {
+  display: flex;
+}
+.register__label {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  color: blue;
+}
+
+/*# sourceMappingURL=register.css.map */

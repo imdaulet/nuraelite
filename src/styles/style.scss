@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+.container{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+@import "header";
+@import "cottage.css";
+@import "group";
+@import "team";
+@import "map";
+@import "elite";
+@import "why";
+@import "register";
+@import "paiment";
+@import "footer";

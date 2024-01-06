@@ -1,0 +1,60 @@
+.register{
+  padding: 70px 130px;
+  &__small{
+    border-radius: 8px;
+    border: 8px solid #842231;
+    background: var(--, #FFF);
+  }
+  &__nav{
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 70px 100px;
+    right: -50px;
+    position: relative;
+  }
+  &__name{
+    color: var(--1, #2E363E);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 133%;
+  }
+  &__desc{
+    color: var(--1, #2E363E);
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 143%;
+    letter-spacing: -0.2px;
+  }
+  &__label{
+
+    .field{
+      display: inline-block;
+      height: 85px;
+      padding: 0px 153px 0px 21px;
+      align-items: flex-end;
+      gap: 10px;
+      border-radius: 8px;
+    }
+  }
+  &__btn{
+    width: 280px;
+    padding: 29px 41px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #842231;
+    color: #FFFFFF;
+    &:hover, &.active {
+      color: white;
+      border: 0px;
+      background: darkred;
+      transition: .3s;
+
+    }
+  }
+}

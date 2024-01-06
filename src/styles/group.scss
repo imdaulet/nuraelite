@@ -1,0 +1,95 @@
+.group{
+  padding: 0 130px;
+  &__row{
+  display: flex;
+    column-gap: 40px;
+  }
+  &__left{
+    width: calc(60% - 54px);
+  }
+  &__title{
+    color: #333;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 120px 0 60px;
+  }
+  &__text{
+    color: #333;
+    font-size: 20px;
+    line-height: 110%;
+    padding: 20px 0;
+  }
+  &__name{
+    color: #333;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 110%;
+    span{
+      color: #333;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 110%;
+      padding: 60px 0;
+    }
+  }
+  &__names{
+    color: #333;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 60px 0 20px ;
+    span{
+      color: #333;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 110%;
+      margin: 20px 0;
+    }
+  }
+  &__desc{
+    color: #333;
+    font-size: 20px;
+    font-weight: 900;
+
+
+    span{
+      color: #333;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 110%;
+    }
+  }
+  &__right{
+    width: calc(40% - 81px);
+  }
+  &__img{
+    position: relative;
+    left: 800px;
+    bottom: 690px;
+    &-red{
+    position: absolute;
+      right: 100px;
+      top: 1020px;
+    }
+    &-black{
+      position: absolute;
+      right: 80px;
+      top: 980px;
+    }
+  }
+
+  &__namec{
+    color: #333;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    left: 930px;
+    top: 1500px;
+    span{
+      color: #333;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 110%;
+    }
+  }
+}

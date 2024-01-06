@@ -1,0 +1,88 @@
+.cottage {
+  padding: 150px 50px 130px;
+  background: url("../assets/fon-jp.jpg") center/cover no-repeat;
+
+
+  &__title {
+    color: #FFF;
+    font-size: 38px;
+    line-height: 140%;
+    padding: 20px 0;
+  }
+
+  &__btn {
+    padding: 20px 30px;
+    background: #DBA069;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    &:hover, &.active {
+      color: #DBA069;
+      border: 0px;
+      background: white;
+      transition: .5s;
+
+    }
+  }
+  &__desc{
+    padding: 40px 0 20px;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  &__number{
+    position: relative;
+    display: flex;
+    color: #FFF;
+    font-size: 128px;
+    font-weight: 700;
+    gap: 10px;
+
+    span{
+      color: #FFF;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 140%; /* 28px */
+      padding: 30px;
+    }
+  }
+  &__numbers{
+    position: absolute;
+    display: flex;
+    color: #FFF;
+    font-size: 128px;
+    font-weight: 700;
+    gap: 10px;
+    bottom: 0;
+    padding: 0px 250px ;
+
+    span{
+      color: #FFF;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 140%; /* 28px */
+      padding: 30px;
+    }
+  }
+  &__text{
+    position: absolute;
+    right: 100px;
+    top: 310px;
+    &-desc{
+      padding: 20px;
+      gap: 20px;
+      color: #FFF;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      .bold-text{
+        font-weight: 900;
+      }
+    }
+  }
+}
